@@ -1,3 +1,16 @@
+h1,
+form {
+	text-align: center;
+}
+
+.quil {
+	width: 80px;
+	position: relative;
+	top: -200px;
+	right: -100px;
+	float: left;
+}
+
 h1 {
 	font-size: 70px;
 	color: #009E49;
@@ -6,8 +19,7 @@ h1 {
 }
 
 body {
-	text-align: center;
-	background-image: url(notepaper.jpg);
+	background-image: url(images/notepaper.jpg);
 }
 
 input {
@@ -31,10 +43,32 @@ button {
 
 ul {
 	list-style-position: inside;
+	list-style-type: none;
+	margin-left: 260px
 }
 
 li {
 	font-size: 30px;
-	margin-bottom: 56px;
+	margin-bottom: 39px;
 	font-family: 'Indie Flower';
+}
+
+#check {
+	display: inline;
+	width: 50px;
+}
+
+@media(max-width:910px) {
+	body {
+		background-image: url(images/notepaper1.jpg);
+	}
+	ul {
+		margin-left: 25px;
+	}
+}
+
+@media(max-width: 670px) {
+	.quil {
+		display: none;
+	}
 }

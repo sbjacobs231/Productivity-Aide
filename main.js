@@ -1,16 +1,15 @@
 function addBullet() {
-	//added checkboxes
+	//create checkbox and list item
 	var checkbox = document.createElement('input')
-	checkbox.type = 'checkbox'
-	checkbox.className = 'square'
-	var bullet = document.createTextNode(checkbox)
-	var list = document.getElementById('list')
-	list.appendChild(bullet)
-	//original
 	var li = document.createElement('li')
+	//checkbox details
+	checkbox.setAttribute('type', 'checkbox')
+	checkbox.id = 'check'
+	//retrieve, package, display
 	var userInput = document.getElementById('userInput').value
 	var node = document.createTextNode(userInput)
-	li.appendChild(node)
 	var listItem = document.getElementById('listItem')
+	li.appendChild(checkbox)
+	li.appendChild(node)
 	listItem.appendChild(li)
 }
