@@ -1,0 +1,40 @@
+h1 {
+	font-size: 70px;
+	color: #009E49;
+	font-family: 'Indie Flower', cursive;
+	margin: 15px 0 10px;
+}
+
+body {
+	text-align: center;
+	background-image: url(notepaper.jpg);
+}
+
+input {
+	width: 300px;
+	height: 20px;
+	margin: 0px 0 30px;
+	font-size: 20px;
+	background-color: lightgreen;
+	border: 1px solid;
+	border-radius: 10px;
+	text-indent: 10px;
+}
+
+button {
+	width: 100px;
+	color: white;
+	background-color: #8CD701;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+li {
+	font-size: 30px;
+	margin-bottom: 56px;
+	font-family: 'Indie Flower';
+}
